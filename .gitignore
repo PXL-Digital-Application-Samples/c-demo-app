@@ -53,3 +53,31 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Compiled files
+*.o
+*.obj
+user_api
+user_api.exe
+test_users
+test_users.exe
+
+# Build directories
+build/
+cmake-build-*/
+
+# Package managers
+vcpkg_installed/
+conan/
+.conan/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+build/**
